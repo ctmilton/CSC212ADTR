@@ -20,7 +20,7 @@ public interface SetADT<ItemType> {
 	public int size();
 
 	/**
-	 * Add a element to this set if new/unique.
+	 * Add an element to this set if new/unique.
 	 * 
 	 * @param value - the value to add.
 	 */
