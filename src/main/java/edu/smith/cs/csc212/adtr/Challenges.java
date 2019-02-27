@@ -16,6 +16,14 @@ public class Challenges {
 	public static SetADT<Integer> intersection(SetADT<Integer> left, SetADT<Integer> right) {
 		SetADT<Integer> output = new JavaSet<>();
 		
+		for(int i : left) {
+			for (int j : SetADT<int> right) {
+				if(i == j) {
+					output.add(i);
+				}
+			}
+		}
+		
 		return output;
 	}
 	
